@@ -2,7 +2,7 @@
 FROM php:8.1-apache
 
 # Establecer el directorio de trabajo dentro del contenedor
-WORKDIR /var/www/html
+WORKDIR /app
 
 # Copiar los archivos de la aplicación PHP al contenedor
 COPY . .
