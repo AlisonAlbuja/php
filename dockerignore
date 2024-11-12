@@ -1,0 +1,6 @@
+# Ignorar la carpeta .git
+.git
+
+# Ignorar el propio dockerfile y .dockerignore
+dockerfile
+.dockerignore
